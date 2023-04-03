@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    background: #241960;
+    justify-content: space-between;
+    color: white;
+    height: 30px;
+    padding: 0 85px;
+}
+
+.headerDestaque {
+    display: flex;
+}
+
+.headerText {
+    font-size: 12px;
+    margin-right: 60px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.headerImgIcon {
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+#iconYoutube {
+    width: 14px;
+    height: 10px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.sessao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 85px;
+    height: 75px;
+}
+
+.setaEsquerda {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.setaDireita {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -20px;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.logoNairuz {
+    width: 380px;
+    cursor: pointer;
+}
+
+.divIcons {
+    width: 380px;
+    display: flex;
+}
+
+.divInput {
+    width: 519px;
+    display: flex;
+    margin-right: 105px;
+    margin-left: 205px;
+    align-items: center;
+    border: 2px solid #d0d0d0;
+    border-radius: 7px;
+}
+
+.pesquisaIcon {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    top: 48px;
+    left: 381px;
+    width: 519px;
+    height: 39px;
+    border-radius: 7px;
+    border: none;
+    padding: 18px;
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.iconSessao {
+    height: 22px;
+}
+
+.textIcon {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+span {
+    font-size: 14px;
+}
+
+.menuNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43px;
+    background: #52BBB7;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 0 85px;
+    font-size: 14px;
+}
+
+.menu p {
+    cursor: pointer;
+}
+
+.imagemMenu {
+    background-image: url(./assets/imagemDestaque.png);
+    width: 100%;
+    height: 453px;
+    background-size: cover;
+}
+
+.tracosTop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 453px;
+    align-items: flex-end;
+}
+
+.topPrimeiro {
+    width: 30px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.topRestante {
+    width: 30px;
+    height: 5px;
+    background: #a9a9a9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0 85px;
+    font-weight: bold;
+}
+
+.menuFotos {
+    display: flex;
+    padding: 0 85px;
+    justify-content: space-between;
+}
+
+.imagemProduto {
+    width: 260px;
+    height: 264px;
+}
+
+.tituloProduto {
+    font-size: 16px;
+    color: #292929;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.valorProduto {
+    font-size: 20px;
+    color: #292929;
+    font-weight: bold;
+}
+
+.valorParcelaProduto {
+    font-size: 14px;
+    color: #292929;
+}
+
+.tracoMenu {
+    height: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tracoMenuPrimeiro {
+    width: 30px;
+    height: 5px;
+    background: grey;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tracoMenuRestante {
+    width: 30px;
+    height: 5px;
+    background: #d3d3d3;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.centralCartao {
+    display: flex;
+    margin-top: 90px;
+    padding: 0 85px;
+}
+
+.imagemCartao {
+    width: 606px;
+    height: 500px;
+    margin-right: 59px;
+    background-image: url("./assets/imagemCartao.png");
+}
+
+.pTextoDigitado {
+    margin-top: 260px;
+    margin-left: 220px;
+    margin-right: 397px;
+    width: 150px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.pTextoDigitado2 {
+    margin-top: 230px;
+    margin-left: 220px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    width: 200px;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#inputNumero[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#inputNumero[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.pTextoDigitado3 {
+    margin-top: 260px;
+    margin-left: 395px;
+    width: 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.divConteudo {
+    margin-top: 44px;
+    width: 445px;
+    height: 407px;
+}
+
+.pPagamento {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.credenciais {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.inputs {
+    border-radius: 10px;
+    width: 445px;
+    height: 49px;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    margin-top: 10px;
+}
+
+.inputs:focus {
+    outline: none;
+}
+
+.inputData {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    width: 91px;
+    height: 49px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.inputData:focus {
+    outline: none;
+}
+
+.inputCodigo {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    width: 212px;
+    height: 49px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.inputCodigo:focus {
+    outline: none;
+}
+
+.credencial {
+    display: flex;
+}
+
+#validadeAa {
+    margin-left: 1px;
+}
+
+.codigoCvc {
+    margin-left: 36px;
+}
+
+.bConfirmar {
+    width: 230px;
+    height: 44px;
+    border-radius: 25px;
+    background: #221A61;
+    color: #FBFBFB;
+    border: 1px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.centralRodape {
+    padding: 0 85px;
+}
+
+.riscoRodape {
+    background: #d9d9d9;
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+}
+
+.rodape {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
