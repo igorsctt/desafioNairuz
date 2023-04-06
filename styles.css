@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
 .header {
     display: flex;
     background: #241960;
@@ -398,3 +403,200 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+
+@media (max-width: 930px) {
+
+    .header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .headerDestaque {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .headerText {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    
+    .sessao {
+      height: auto;
+      padding: 10px;
+      display: none;
+    }
+  
+    .setaEsquerda,
+    .setaDireita {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  
+    .logoNairuz {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .divIcons,
+    .divInput {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px auto;
+    }
+  
+    .menuNav {
+      height: auto;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu p {
+      margin: 10px 0;
+    }
+  
+    .imagemMenu {
+      height: 300px;
+      width: 100%;
+      height: 20%;
+    }
+  
+    h2 {
+      padding: 10px;
+    }
+  
+    .menuFotos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imagemProduto {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .tituloProduto {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+  
+    .valorProduto {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .valorParcelaProduto {
+      text-align: center;
+      font-size: 14px;
+      margin: 10px 0
+      ;
+    }
+  
+    .tracoMenu {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  
+    .tracoMenuPrimeiro {
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 930px) {
+  
+      .imagemCartao {
+      margin: 0 -20px;
+      width: 100%;
+      height: auto;
+      padding: 0;
+      background-image: none;
+      }
+      
+      .pTextoDigitado {
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      }
+      
+      .pTextoDigitado2 {
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      }
+      
+      .pTextoDigitado3 {
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      }
+      
+      .divConteudo {
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+      }
+      
+      .inputs {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      }
+      
+      .inputData {
+      width: 30%;
+      margin-top: 10px;
+      margin-right: 5%;
+      float: left;
+      }
+      
+      .inputCodigo {
+      width: 65%;
+      margin-top: 10px;
+      float: right;
+      }
+      
+      .credencial {
+      flex-wrap: wrap;
+      }
+      
+      .codigoCvc {
+      margin-left: 0;
+      }
+      
+      .bConfirmar {
+      width: 100%;
+      margin-top: 20px;
+      }
+      
+      .centralRodape {
+      padding: 0;
+      }
+      
+      .riscoRodape {
+      margin-top: 20px;
+      }
+      
+      .rodape {
+      font-size: 12px;
+      }
+      }
+  
+  
