@@ -432,13 +432,7 @@ h2 {
   
     .setaEsquerda,
     .setaDireita {
-      margin-top: 10px;
-      margin-left: 0;
-    }
-  
-    .logoNairuz {
-      width: 100%;
-      max-width: 300px;
+      display: none;
     }
   
     .divIcons,
@@ -458,7 +452,7 @@ h2 {
     }
   
     .menu p {
-      margin: 10px 0;
+      margin: 2px 0;
     }
   
     .imagemMenu {
@@ -469,6 +463,7 @@ h2 {
   
     h2 {
       padding: 10px;
+      text-align: center;
     }
   
     .menuFotos {
@@ -570,7 +565,6 @@ h2 {
       .inputCodigo {
       width: 65%;
       margin-top: 10px;
-      float: right;
       }
       
       .credencial {
