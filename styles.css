@@ -4,510 +4,501 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-}
+    }
 
-.wrapper{
-    width: 100vw;
-    height: 100vh;
-}
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+    }
 
-.header {
-    display: flex;
-    background: #241960;
-    justify-content: space-between;
-    color: white;
-    height: 30px;
-    padding: 0 85px;
-}
+    .header {
+        display: flex;
+        background: #241960;
+        justify-content: space-between;
+        color: white;
+        height: 30px;
+        padding: 0 85px;
+    }
 
-.headerDestaque {
-    display: flex;
-}
+    .headerDestaque {
+        display: flex;
+    }
 
-.headerText {
-    font-size: 12px;
-    margin-right: 60px;
-    margin-top: 7px;
-    cursor: pointer;
-}
+    .headerText {
+        font-size: 12px;
+        margin-right: 60px;
+        margin-top: 7px;
+        cursor: pointer;
+    }
 
-.headerImgIcon {
-    margin-left: 10px;
-    width: 12px;
-    height: 12px;
-    margin-top: 9px;
-    cursor: pointer;
-}
+    .headerImgIcon {
+        margin-left: 10px;
+        width: 12px;
+        height: 12px;
+        margin-top: 9px;
+        cursor: pointer;
+    }
 
-#iconYoutube {
-    width: 14px;
-    height: 10px;
-    margin-bottom: 1px;
-    margin-left: 10px;
-}
+    #iconYoutube {
+        width: 14px;
+        height: 10px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+    }
 
-.sessao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 85px;
-    height: 75px;
-}
+    .sessao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 85px;
+        height: 75px;
+    }
 
-.setaEsquerda {
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: -10px;
-    cursor: pointer;
-}
+    .setaEsquerda {
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -10px;
+        cursor: pointer;
+    }
 
-.setaDireita {
-    width: 31px;
-    height: 31px;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: -20px;
-    transform: scaleX(-1);
-    cursor: pointer;
-}
+    .setaDireita {
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -20px;
+        transform: scaleX(-1);
+        cursor: pointer;
+    }
 
-.logoNairuz {
-    width: 380px;
-    cursor: pointer;
-}
+    .logoNairuz {
+        width: 380px;
+        cursor: pointer;
+    }
 
-.divIcons {
-    width: 380px;
-    display: flex;
-}
+    .divIcons {
+        width: 380px;
+        display: flex;
+    }
 
-.divInput {
-    width: 519px;
-    display: flex;
-    margin-right: 105px;
-    margin-left: 205px;
-    align-items: center;
-    border: 2px solid #d0d0d0;
-    border-radius: 7px;
-}
+    .divInput {
+        width: 519px;
+        display: flex;
+        margin-right: 105px;
+        margin-left: 205px;
+        align-items: center;
+        border: 2px solid #d0d0d0;
+        border-radius: 7px;
+    }
 
-.pesquisaIcon {
-    margin-right: 6px;
-    cursor: pointer;
-}
+    .pesquisaIcon {
+        margin-right: 6px;
+        cursor: pointer;
+    }
 
-.pesquisa {
-    top: 48px;
-    left: 381px;
-    width: 519px;
-    height: 39px;
-    border-radius: 7px;
-    border: none;
-    padding: 18px;
-}
+    .pesquisa {
+        top: 48px;
+        left: 381px;
+        width: 519px;
+        height: 39px;
+        border-radius: 7px;
+        border: none;
+        padding: 18px;
+    }
 
-.pesquisa:focus {
-    outline: none;
-}
+    .pesquisa:focus {
+        outline: none;
+    }
 
-.profile {
-    display: flex;
-    align-items: center;
-}
+    .profile {
+        display: flex;
+        align-items: center;
+    }
 
-.cart {
-    display: flex;
-    align-items: center;
-}
+    .cart {
+        display: flex;
+        align-items: center;
+    }
 
-.iconSessao {
-    height: 22px;
-}
+    .iconSessao {
+        height: 22px;
+    }
 
-.textIcon {
-    font-size: 12px;
-    margin-left: 10px;
-}
+    .textIcon {
+        font-size: 12px;
+        margin-left: 10px;
+    }
 
-span {
-    font-size: 14px;
-}
+    span {
+        font-size: 14px;
+    }
 
-.menuNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 43px;
-    background: #52BBB7;
-}
+    .menuNav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 43px;
+        background: #52BBB7;
+    }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    color: #FFFFFF;
-    padding: 0 85px;
-    font-size: 14px;
-}
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #FFFFFF;
+        padding: 0 85px;
+        font-size: 14px;
+    }
 
-.menu p {
-    cursor: pointer;
-}
+    .menu p {
+        cursor: pointer;
+    }
 
-.imagemMenu {
-    background-image: url(./assets/imagemDestaque.png);
-    width: 100%;
-    height: 453px;
-    background-size: cover;
-}
+    .imagemMenu {
+        background-image: url(./assets/imagemDestaque.png);
+        width: 100%;
+        height: 453px;
+        background-size: cover;
+    }
 
-.tracosTop {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 453px;
-    align-items: flex-end;
-}
+    .tracosTop {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 453px;
+        align-items: flex-end;
+    }
 
-.topPrimeiro {
-    width: 30px;
-    height: 5px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-right: 5px;
-    cursor: pointer;
-}
+    .topPrimeiro {
+        width: 30px;
+        height: 5px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
 
-.topRestante {
-    width: 30px;
-    height: 5px;
-    background: #a9a9a9;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-right: 5px;
-    cursor: pointer;
-}
+    .topRestante {
+        width: 30px;
+        height: 5px;
+        background: #a9a9a9;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
 
-h2 {
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 0 85px;
-    font-weight: bold;
-}
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        padding: 0 85px;
+        font-weight: bold;
+    }
 
-.menuFotos {
-    display: flex;
-    padding: 0 85px;
-    justify-content: space-between;
-}
+    .menuFotos {
+        display: flex;
+        padding: 0 85px;
+        justify-content: space-between;
+    }
 
-.imagemProduto {
-    width: 260px;
-    height: 264px;
-}
+    .imagemProduto {
+        width: 260px;
+        height: 264px;
+    }
 
-.tituloProduto {
-    font-size: 16px;
-    color: #292929;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
+    .tituloProduto {
+        font-size: 16px;
+        color: #292929;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 
-.valorProduto {
-    font-size: 20px;
-    color: #292929;
-    font-weight: bold;
-}
+    .valorProduto {
+        font-size: 20px;
+        color: #292929;
+        font-weight: bold;
+    }
 
-.valorParcelaProduto {
-    font-size: 14px;
-    color: #292929;
-}
+    .valorParcelaProduto {
+        font-size: 14px;
+        color: #292929;
+    }
 
-.tracoMenu {
-    height: 5px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+    .tracoMenu {
+        height: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 
-.tracoMenuPrimeiro {
-    width: 30px;
-    height: 5px;
-    background: grey;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-right: 5px;
-    cursor: pointer;
-}
+    .tracoMenuPrimeiro {
+        width: 30px;
+        height: 5px;
+        background: grey;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
 
-.tracoMenuRestante {
-    width: 30px;
-    height: 5px;
-    background: #d3d3d3;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    margin-right: 5px;
-    cursor: pointer;
-}
+    .tracoMenuRestante {
+        width: 30px;
+        height: 5px;
+        background: #d3d3d3;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
 
-.centralCartao {
-    display: flex;
-    margin-top: 90px;
-    padding: 0 85px;
-}
+    .centralCartao {
+        display: flex;
+        margin-top: 90px;
+        padding: 0 85px;
+    }
 
-.imagemCartao {
-    width: 606px;
-    height: 500px;
-    margin-right: 59px;
-    background-image: url("./assets/imagemCartao.png");
-}
+    .imagemCartao {
+        width: 606px;
+        height: 500px;
+        margin-right: 59px;
+        background-image: url("./assets/imagemCartao.png");
+    }
 
-.pTextoDigitado {
-    margin-top: 260px;
-    margin-left: 220px;
-    margin-right: 397px;
-    width: 150px;
-    font-size: 12px;
-    color: #FFFFFF;
-}
+    .pTextoDigitado {
+        margin-top: 260px;
+        margin-left: 220px;
+        margin-right: 397px;
+        width: 150px;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
 
-.pTextoDigitado2 {
-    margin-top: 230px;
-    margin-left: 220px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-    width: 200px;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-}
+    .pTextoDigitado2 {
+        margin-top: 230px;
+        margin-left: 220px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+        width: 200px;
+        font-size: 18px;
+        color: #FFFFFF;
+        position: absolute;
+    }
 
-#inputNumero[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
+    #inputNumero[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
 
-#inputNumero[type=number] {
-    -moz-appearance: textfield;
-    appearance: textfield;
-}
+    #inputNumero[type=number] {
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
 
-.pTextoDigitado3 {
-    margin-top: 260px;
-    margin-left: 395px;
-    width: 10px;
-    font-size: 12px;
-    color: #FFFFFF;
-    position: absolute;
-}
+    .pTextoDigitado3 {
+        margin-top: 260px;
+        margin-left: 395px;
+        width: 10px;
+        font-size: 12px;
+        color: #FFFFFF;
+        position: absolute;
+    }
 
-.divConteudo {
-    margin-top: 44px;
-    width: 445px;
-    height: 407px;
-}
+    .divConteudo {
+        margin-top: 44px;
+        width: 445px;
+        height: 407px;
+    }
 
-.pPagamento {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
+    .pPagamento {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
 
-.credenciais {
-    font-size: 16px;
-    margin-top: 10px;
-}
+    .credenciais {
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
-.inputs {
-    border-radius: 10px;
-    width: 445px;
-    height: 49px;
-    padding: 20px;
-    border: 1px solid #d9d9d9;
-    margin-top: 10px;
-}
+    .inputs {
+        border-radius: 10px;
+        width: 445px;
+        height: 49px;
+        padding: 20px;
+        border: 1px solid #d9d9d9;
+        margin-top: 10px;
+    }
 
-.inputs:focus {
-    outline: none;
-}
+    .inputs:focus {
+        outline: none;
+    }
 
-.inputData {
-    border: 1px solid #d9d9d9;
-    border-radius: 10px;
-    width: 91px;
-    height: 49px;
-    padding: 20px;
-    margin-top: 10px;
-}
+    .inputData {
+        border: 1px solid #d9d9d9;
+        border-radius: 10px;
+        width: 91px;
+        height: 49px;
+        padding: 20px;
+        margin-top: 10px;
+    }
 
-.inputData:focus {
-    outline: none;
-}
+    .inputData:focus {
+        outline: none;
+    }
 
-.inputCodigo {
-    border: 1px solid #d9d9d9;
-    border-radius: 10px;
-    width: 212px;
-    height: 49px;
-    padding: 20px;
-    margin-top: 10px;
-}
+    .inputCodigo {
+        border: 1px solid #d9d9d9;
+        border-radius: 10px;
+        width: 212px;
+        height: 49px;
+        padding: 20px;
+        margin-top: 10px;
+    }
 
-.inputCodigo:focus {
-    outline: none;
-}
+    .inputCodigo:focus {
+        outline: none;
+    }
 
-.credencial {
-    display: flex;
-}
+    .credencial {
+        display: flex;
+    }
 
-#validadeAa {
-    margin-left: 1px;
-}
+    #validadeAa {
+        margin-left: 1px;
+    }
 
-.codigoCvc {
-    margin-left: 36px;
-}
+    .codigoCvc {
+        margin-left: 36px;
+    }
 
-.bConfirmar {
-    width: 230px;
-    height: 44px;
-    border-radius: 25px;
-    background: #221A61;
-    color: #FBFBFB;
-    border: 1px;
-    margin-top: 45px;
-    cursor: pointer;
-}
+    .bConfirmar {
+        width: 230px;
+        height: 44px;
+        border-radius: 25px;
+        background: #221A61;
+        color: #FBFBFB;
+        border: 1px;
+        margin-top: 45px;
+        cursor: pointer;
+    }
 
-.centralRodape {
-    padding: 0 85px;
-}
+    .centralRodape {
+        padding: 0 85px;
+    }
 
-.riscoRodape {
-    background: #d9d9d9;
-    width: 100%;
-    height: 2px;
-    margin-top: 30px;
-}
+    .riscoRodape {
+        background: #d9d9d9;
+        width: 100%;
+        height: 2px;
+        margin-top: 30px;
+    }
 
-.rodape {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    .rodape {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
 }
 
 
 @media (max-width: 930px) {
 
     .header {
-      flex-direction: column;
-      height: auto;
-      padding: 10px;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
     }
 
     .headerIcon {
         display: flex;
         justify-content: center;
     }
-  
+
     .headerDestaque {
-      flex-wrap: wrap;
-      justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-  
+
     .headerText {
-      margin-bottom: 10px;
-      font-size: 10px;
-      margin-right: 20px;
-      margin-top: 2px;  
+        margin-bottom: 10px;
+        font-size: 10px;
+        margin-right: 20px;
+        margin-top: 2px;
     }
-  
-    
+
+
     .sessao {
-      height: auto;
-      padding: 10px;
-      display: none;
+        height: auto;
+        padding: 10px;
+        display: none;
     }
-  
+
     .setaEsquerda {
-        width: 31px;
-        height: 31px;
-        
-        margin-top: 120px;
-        }
-   
-        .setaDireita {
-            width: 31px;
-            height: 31px;
-              
-                
-                margin-top: 120px;
-                margin-left: -525px;
-                transform: scaleX(-1);
-                cursor: pointer;
-        }
+        display: none;
+    }
+
+    .setaDireita {
+        display: none;
+    }
 
     .divIcons,
     .divInput {
-      width: 100%;
-      max-width: 400px;
-      margin: 10px auto;
-    }
-  
-    .menuNav {
-      height: auto;
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
     }
 
-    .menuNav i{
+    .menuNav {
+        height: auto;
+    }
+
+    .menuNav i {
         cursor: pointer;
         margin-right: 95%;
     }
-  
+
     .menu {
-      flex-direction: column;
-      display: none;
-      width: 100vw;
-      margin-right: 260px;
+        flex-direction: column;
+        display: none;
+        width: 100vw;
+        margin-right: 260px;
         position: absolute;
     }
-  
+
     nav .menu.ativado {
         display: grid;
         position: absolute;
         gap: 4px;
         background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
         padding: 10px;
-        margin-top: 135px;
+        top: 107px;
         z-index: 7;
         font-size: 0.5rem;
         font-weight: bold;
         border-radius: 6px;
         animation: sobeSecao .6s ease-in-out forwards;
-        width: 80px;
+        width: auto;
         text-align: center;
     }
 
+
     .menu p {
-      margin: 2px 0;
+        margin: 2px 0;
     }
-  
+
     .imagemMenu {
-      height: 300px;
-      width: 100%;
-      height: 25%;
+        height: 300px;
+        width: 100%;
+        height: 25%;
     }
-  
+
     h2 {
-      padding: 10px;
-      text-align: center;
+        padding: 10px;
+        text-align: center;
     }
 
     .menuFotos {
@@ -517,136 +508,133 @@ h2 {
         padding: 0 10px;
         margin-left: 10px;
         gap: 10px;
-      }
-      
-      .sessaoFotos {
+    }
+
+    .sessaoFotos {
         flex: 0 0 auto;
         width: 200px;
         height: 200px;
         margin-right: 10px;
         background-color: #eee;
-      }
-  
+    }
+
     .imagemProduto {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
     }
-  
+
     .tituloProduto {
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 5px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
-  
+
     .valorProduto {
-      text-align: center;
-      font-size: 18px;
+        text-align: center;
+        font-size: 18px;
     }
-  
+
     .valorParcelaProduto {
-      text-align: center;
-      font-size: 14px;
-      margin: 10px 0
-      ;
+        text-align: center;
+        font-size: 14px;
+        margin: 10px 0;
     }
-  
+
     .tracoMenu {
-      display: none;
+        display: none;
     }
-  
+
     .topRestante {
         display: none;
     }
-    
-  }
-  
-  @media screen and (max-width: 930px) {
-  
-      .imagemCartao {
-      margin: 0 -20px;
-      width: 100%;
-      height: auto;
-      padding: 0;
-      background-image: none;
-      }
-      
-      .pTextoDigitado {
-      margin-top: 20px;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      text-align: center;
-      font-size: 16px;
-      }
-      
-      .pTextoDigitado2 {
-      margin-top: 20px;
-      margin-left: 0;
-      margin-right: 0;
-      margin-bottom: 10px;
-      width: 100%;
-      text-align: center;
-      font-size: 24px;
-      }
-      
-      .pTextoDigitado3 {
-      margin-top: 20px;
-      margin-left: 0;
-      margin-right: 0;
-      width: 100%;
-      text-align: center;
-      font-size: 16px;
-      }
-      
-      .divConteudo {
-      margin-top: 20px;
-      width: 100%;
-      height: auto;
-      }
-      
-      .inputs {
-      width: 100%;
-      height: auto;
-      margin-top: 10px;
-      }
-      
-      .inputData {
-      width: 40%;
-      margin-top: 10px;
-      margin-right: 5%;
-      float: left;
-      }
-      
-      .inputCodigo {
-      width: 65%;
-      margin-top: 10px;
-      }
-      
-      .credencial {
-      flex-wrap: wrap;
-      }
-      
-      .codigoCvc {
-      margin-left: 0;
-      }
-      
-      .bConfirmar {
-      width: 100%;
-      margin-top: 20px;
-      }
-      
-      .centralRodape {
-      padding: 0;
-      }
-      
-      .riscoRodape {
-      margin-top: 20px;
-      }
-      
-      .rodape {
-      font-size: 12px;
-      }
-      }
-  
-  
+
+}
+
+@media screen and (max-width: 930px) {
+
+    .imagemCartao {
+        margin: 0 -20px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        background-image: none;
+    }
+
+    .pTextoDigitado {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pTextoDigitado2 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .pTextoDigitado3 {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .divConteudo {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .inputs {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .inputData {
+        width: 40%;
+        margin-top: 10px;
+        margin-right: 5%;
+        float: left;
+    }
+
+    .inputCodigo {
+        width: 65%;
+        margin-top: 10px;
+    }
+
+    .credencial {
+        flex-wrap: wrap;
+    }
+
+    .codigoCvc {
+        margin-left: 0;
+    }
+
+    .bConfirmar {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .centralRodape {
+        padding: 0;
+    }
+
+    .riscoRodape {
+        margin-top: 20px;
+    }
+
+    .rodape {
+        font-size: 12px;
+    }
+}

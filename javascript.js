@@ -48,37 +48,3 @@ ativaMenu.addEventListener("click", () => {
   navMenu.classList.toggle("ativado");
 });
 
-const carousels = document.querySelectorAll(".menuFotos");
-
-carousels.forEach((carousel) => {
-  const items = carousel.querySelectorAll(".sessaoFotos");
-  const prev = carousel.querySelector(".setaEsquerda");
-  const next = carousel.querySelector(".setaDireita");
-
-  let scrollPosition = 0;
-  let currentIndex = 0;
-  const itemWidth = items[0].offsetWidth;
-  const itemCount = items.length;
-  const containerWidth = carousel.offsetWidth;
-
-  function scrollToIndex(index) {
-    const position = index * itemWidth;
-    carousel.scroll({
-      left: position,
-      behavior: "smooth",
-    });
-    currentIndex = index;
-  }
-
-  prev.addEventListener("click", () => {
-    if (currentIndex > 0) {
-      scrollToIndex(currentIndex - 1);
-    }
-  });
-
-  next.addEventListener("click", () => {
-    if (currentIndex < itemCount - 1) {
-      scrollToIndex(currentIndex + 1);
-    }
-  });
-});
