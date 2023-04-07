@@ -40,12 +40,45 @@ function aparecerMes() {
 
 document.getElementById("inputMm").addEventListener("input", aparecerMes);
 
+const ativaMenu = document.querySelector(".fa-bars");
+const navMenu = document.querySelector("nav .menu");
 
-const ativaMenu = document.querySelector('.fa-bars');
-const navMenu = document.querySelector('nav .menu');
+ativaMenu.addEventListener("click", () => {
+  ativaMenu.classList.toggle("fa-x");
+  navMenu.classList.toggle("ativado");
+});
 
+const carousels = document.querySelectorAll(".menuFotos");
 
-ativaMenu.addEventListener('click', ()=>{
-    ativaMenu.classList.toggle('fa-x');
-    navMenu.classList.toggle('ativado')
-})
+carousels.forEach((carousel) => {
+  const items = carousel.querySelectorAll(".sessaoFotos");
+  const prev = carousel.querySelector(".setaEsquerda");
+  const next = carousel.querySelector(".setaDireita");
+
+  let scrollPosition = 0;
+  let currentIndex = 0;
+  const itemWidth = items[0].offsetWidth;
+  const itemCount = items.length;
+  const containerWidth = carousel.offsetWidth;
+
+  function scrollToIndex(index) {
+    const position = index * itemWidth;
+    carousel.scroll({
+      left: position,
+      behavior: "smooth",
+    });
+    currentIndex = index;
+  }
+
+  prev.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      scrollToIndex(currentIndex - 1);
+    }
+  });
+
+  next.addEventListener("click", () => {
+    if (currentIndex < itemCount - 1) {
+      scrollToIndex(currentIndex + 1);
+    }
+  });
+});

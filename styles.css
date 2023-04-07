@@ -437,11 +437,24 @@ h2 {
       display: none;
     }
   
-    .setaEsquerda,
-    .setaDireita {
-      display: none;
-    }
-  
+    .setaEsquerda {
+        width: 31px;
+        height: 31px;
+        
+        margin-top: 120px;
+        }
+   
+        .setaDireita {
+            width: 31px;
+            height: 31px;
+              
+                
+                margin-top: 120px;
+                margin-left: -525px;
+                transform: scaleX(-1);
+                cursor: pointer;
+        }
+
     .divIcons,
     .divInput {
       width: 100%;
@@ -496,11 +509,23 @@ h2 {
       padding: 10px;
       text-align: center;
     }
-  
+
     .menuFotos {
-      flex-direction: column;
-      align-items: center;
-    }
+        display: flex;
+        overflow-x: scroll;
+        height: 320px;
+        padding: 0 10px;
+        margin-left: 10px;
+        gap: 10px;
+      }
+      
+      .sessaoFotos {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 200px;
+        margin-right: 10px;
+        background-color: #eee;
+      }
   
     .imagemProduto {
       width: 100%;
@@ -527,14 +552,13 @@ h2 {
     }
   
     .tracoMenu {
-      margin-top: 10px;
-      margin-bottom: 0;
       display: none;
     }
   
-    .tracoMenuPrimeiro {
-      margin-right: 0;
+    .topRestante {
+        display: none;
     }
+    
   }
   
   @media screen and (max-width: 930px) {
