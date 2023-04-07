@@ -39,3 +39,13 @@ function aparecerMes() {
 }
 
 document.getElementById("inputMm").addEventListener("input", aparecerMes);
+
+
+const ativaMenu = document.querySelector('.fa-bars');
+const navMenu = document.querySelector('nav .menu');
+
+
+ativaMenu.addEventListener('click', ()=>{
+    ativaMenu.classList.toggle('fa-x');
+    navMenu.classList.toggle('ativado')
+})
