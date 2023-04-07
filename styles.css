@@ -412,6 +412,11 @@ h2 {
       height: auto;
       padding: 10px;
     }
+
+    .headerIcon {
+        display: flex;
+        justify-content: center;
+    }
   
     .headerDestaque {
       flex-wrap: wrap;
@@ -450,28 +455,31 @@ h2 {
 
     .menuNav i{
         cursor: pointer;
+        margin-right: 95%;
     }
   
     .menu {
       flex-direction: column;
-      align-items: center;
       display: none;
+      width: 100vw;
+      margin-right: 260px;
+        position: absolute;
     }
   
     nav .menu.ativado {
         display: grid;
         position: absolute;
-        gap: 7px;
+        gap: 4px;
         background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
         padding: 10px;
-        top: 95px;
+        margin-top: 135px;
         z-index: 7;
         font-size: 0.5rem;
         font-weight: bold;
         border-radius: 6px;
         animation: sobeSecao .6s ease-in-out forwards;
         width: 80px;
-        right: 80px;
+        text-align: center;
     }
 
     .menu p {
@@ -521,6 +529,7 @@ h2 {
     .tracoMenu {
       margin-top: 10px;
       margin-bottom: 0;
+      display: none;
     }
   
     .tracoMenuPrimeiro {
@@ -579,7 +588,7 @@ h2 {
       }
       
       .inputData {
-      width: 30%;
+      width: 40%;
       margin-top: 10px;
       margin-right: 5%;
       float: left;
